@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    margin: ;
+    padding: ;
+    border: ;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffbbe0;
+    font-size: 18px;
+} 
+
+.card{
+    width: 320px;
+    background-color: #ffd1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+
+.card p{
+    margin-bottom: 15px;
+}
+
+
+
