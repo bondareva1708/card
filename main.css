@@ -25,18 +25,48 @@ body{
 
 .card{
     width: 320px;
+    height: 320px;
     background-color: #ffd1f1;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 20px;
+    overflow: auto;
 }
 
 
 .card p{
     margin-bottom: 15px;
 }
+.card img{
+    width: 100%;
+}
+
+.btnCard{
+    margin: 25 0px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #ccc
+    padding: 15px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius 10px;
+    color: #000;
+    transition:0.8s
+}
+
+.btnCard:hover{
+    background-color: #fff;
+    color: #ffcccc;
+    
+}
+
+
+
 
 
 
